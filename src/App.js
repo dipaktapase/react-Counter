@@ -2,8 +2,7 @@ import Parent from "./components/Parent";
 
 function App() {
   return (
-    <div className="App">
-      Hello
+    <div style={{ justifyContent: "center" }} className="App">
       <Parent />
     </div>
   );
